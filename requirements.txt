@@ -1,0 +1,5 @@
+pymongo==3.10.1
+Faker==4.1.1
+dnspython==2.1.0
+camunda-external-task-client-python3==4.0.0
+

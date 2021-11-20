@@ -1,6 +1,6 @@
 # mongo_uri="mongodb+srv://<username>:<password>@<hostname>/test?retryWrites=true&w=majority"
 # mongo_uri="mongodb://localhost:27017/"
-mongo_uri="mongodb+srv://nikola:banderica2@testcluster.vd16a.mongodb.net/myFirstDatabase?retryWrites=true&w=majority"
+mongo_uri=""
 database="activity"
 outbox_collection="outbox"
 orders_collection="orders"

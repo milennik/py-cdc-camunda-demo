@@ -1,4 +1,4 @@
-mongo_uri="mongodb+srv://nikola:taketwo@application.vd16a.mongodb.net/myFirstDatabase?retryWrites=true&w=majority"
+mongo_uri=""
 # mongo_uri="mongodb://localhost:27017/"
 # mongo_uri=""
 database="activity"

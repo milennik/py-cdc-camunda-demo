@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<definitions xmlns="https://www.omg.org/spec/DMN/20191111/MODEL/" xmlns:dmndi="https://www.omg.org/spec/DMN/20191111/DMNDI/" xmlns:dc="http://www.omg.org/spec/DMN/20180521/DC/" id="Definitions_1o396q2" name="DRD1" namespace="http://camunda.org/schema/1.0/dmn" exporter="Camunda Modeler" exporterVersion="4.11.1">
+  <decision id="dmn1" name="dmn1">
+    <decisionTable id="DecisionTable_0rcx2pe" hitPolicy="FIRST">
+      <input id="Input_1" label="SeizureCount">
+        <inputExpression id="InputExpression_1" typeRef="integer" expressionLanguage="feel">
+          <text>SeizureCount</text>
+        </inputExpression>
+      </input>
+      <output id="Output_1" name="DMN_Output1" typeRef="boolean" />
+      <rule id="DecisionRule_0t6fuwe">
+        <inputEntry id="UnaryTests_15y1bti">
+          <text>&gt;6</text>
+        </inputEntry>
+        <outputEntry id="LiteralExpression_01jkujl">
+          <text>true</text>
+        </outputEntry>
+      </rule>
+      <rule id="DecisionRule_0z1lftl">
+        <inputEntry id="UnaryTests_14r14li">
+          <text></text>
+        </inputEntry>
+        <outputEntry id="LiteralExpression_1fkjdik">
+          <text></text>
+        </outputEntry>
+      </rule>
+    </decisionTable>
+  </decision>
+  <dmndi:DMNDI>
+    <dmndi:DMNDiagram>
+      <dmndi:DMNShape dmnElementRef="dmn1">
+        <dc:Bounds height="80" width="180" x="160" y="100" />
+      </dmndi:DMNShape>
+    </dmndi:DMNDiagram>
+  </dmndi:DMNDI>
+</definitions>
